@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Center</title>
+
+    <!-- Font Awesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Font family MONTSERRAT-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- ============    SWIPER JS   ========= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--==============    Style Css   ===============-->
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <!-- ===========================            N A V B A R         ===============================-->
+    <nav>
+        <div class="container nav__container">
+            <a href="#">
+                <h4>Progress</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html" target="_blank">About</a></li>
+                <li><a href="./courses.html" target="_blank">Courses</a></li>
+                <li><a href="./contact.html" target="_blank">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+
+    <!-- ============================         N A V B A R   E N D         =========================== -->
+
+
+
+    <!-- ===========================              H E A D E R           ===============================-->
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills with Progress School </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus esse voluptatum mollitia magni
+                    aliquid rerum harum voluptatem excepturi distinctio assumenda.</p>
+
+                <a href="./courses.html" target="_blank" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img class="header__right-img" src="./images/school-children-removebg-preview.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================         H E A D E R   E N D         =========================== -->
+
+
+    <!-- ===========================          C A T E G O R I E S         ===============================-->
+
+    <section class="categories">
+        <div class="container categories__container">
+
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ex sapiente nemo rerum vero
+                    similique. Id illum non quam, esse quaerat maiores sed natus ipsam cupiditate nihil quae quisquam
+                    saepe.</p>
+
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </span>
+                    <h5>Russian</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon">
+                        <i class="fa-solid fa-language"></i>
+                    </span>
+                    <h5>English</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </span>
+                    <h5>IELTS</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </span>
+                    <h5>CEFR</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <h5>Individual</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </span>
+                    <h5>Kids</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, qui!</p>
+                </article>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ============================    C A T E G O R I E S    E N D     ============================== -->
+
+
+
+
+    <!-- ============================    O U R   P O P U L A R   C O U R S E S     ============================== -->
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg" class="course__img" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Russian Language Courses</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis itaque facere quae molestias
+                        temporeconsequuntur magni.</p>
+                    <a href="./courses.html" target="_blank" class="btn btn-primary">Learn More . . .</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg" class="course__img" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>English Language Courses</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis itaque facere quae molestias
+                        temporeconsequuntur magni.</p>
+                    <a href="./courses.html" target="_blank" class="btn btn-primary">Learn More . . .</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg" class="course__img" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Kids Language Courses</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis itaque facere quae molestias
+                        temporeconsequuntur magni.</p>
+                    <a href="./courses.html" target="_blank" class="btn btn-primary">Learn More . . .</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ============================    E N E   O F  P O P U L A R   C O U R S E S     ============================== -->
+
+
+
+    <!-- ============================                      F A Q S                      ============================== -->
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How do I know the right course for me?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae, maiores aperiam distinctio
+                        aspernatur cum tempora saepe architecto quis consequuntur ab necessitatibus numquam blanditiis
+                        soluta vel reiciendis, mollitia repellat sed!</p>
+                    <!-- <i class="fa-solid fa-chevron-up"></i> -->
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ============================    E N D   OF   F A Q S     ============================== -->
+
+
+    <!-- ============================    S T U D E N T S   T E S T I M O N I A L S     ============================== -->
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Students' Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/student.webp" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Boris Jhonson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta sit, rerum error
+                        magnam repudiandae repellendus eaque ipsum dolorum officiis tempora architecto excepturi
+                        dolores? Ipsum, placeat. Ab dolorem odio quas.</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <!-- ============= F O O T E R ========== -->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="#" class="footer__logo"><h4>Progress</h4></a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, autem!</p>
+            </div>
+            <div class="footer__2">
+                <ul class="permalinks">
+                    <h4>Permalinks</h4>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./courses.html" target="_blank">Courses</a></li>
+                    <li><a href="./about.html" target="_blank">About</a></li>
+                    <li><a href="./contact.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p> +998 97 312 33 30</p>
+                    <p> progresscenterkarshi@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li><a href="https://instagram.com/progress_center.karshi?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer__copyright">
+            <small>Copyright Progress You Tube Tutorials</small>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //  window >= 600px
+
+            breakpoints:{
+                600:{
+                    slidesPerView: 2 
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
